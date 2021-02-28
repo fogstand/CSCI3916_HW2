@@ -121,7 +121,7 @@ router.route('/movies')
 //All other routs and methods
 router.all('*', function(req, res) {
     res.json({
-        error: 'Your HTTP method is not supported. Fix it please.👮‍'
+        error: 'This is Test. All other requests come here. Test App'
     });
 });
 
