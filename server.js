@@ -121,7 +121,7 @@ router.route('/movies')
 //All other routs and methods
 router.all('*', function(req, res) {
     res.json({
-        error: 'CSCI3916 😇  🤐 \t🤐'
+        error: 'CSCI3916 😸 😇  🤐  💩 🤐'
     });
 });
 
