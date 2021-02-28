@@ -16,5 +16,7 @@
 2. POST:  should  return  {“status”:  200,  message:  “movie saved”, headers: headers: header from request,query: query string from request, env: your unique key}
 3. PUT :  should  return  {“status:  200,  message:  “movie updated”, headers: headers: header from request,query: query string from request, env: yourunique key}•PUTshould require authentication (JWTAuth)
 4. DELETE :  should  return  {“status:  200,  message:  “movie deleted”, headers: headers: header from request,query: query string from request, env: your unique key}•Delete should require authentication (Basic Auth)
+
+
 *All other methods should return error (e.g. PATCH) -it should respond with a simple statement saying it doesn’t support the HTTP method.
 *Any requests made to the base URL (no URN specified) should also be rejected. 
