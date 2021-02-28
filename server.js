@@ -59,7 +59,7 @@ router.route('/postjwt')
 
 router.post('/signup', function(req, res) {
     if (!req.body.username || !req.body.password) {
-        res.json({success: false, msg: '🚨ERROR. No user name or password entered 🕵.'});
+        res.json({success: false, msg: '😉 ERROR. No user name or password entered 🕵.'});
     } else {
         var newUser = {
             username: req.body.username,
@@ -121,7 +121,7 @@ router.route('/movies')
 //All other routs and methods
 router.all('*', function(req, res) {
     res.json({
-        error: 'This is Test. All other requests come here. Test App'
+        error: 'CSCI3916 😇  🤐 \t🤐'
     });
 });
 
