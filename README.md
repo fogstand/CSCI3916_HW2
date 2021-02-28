@@ -1,7 +1,7 @@
 # CSCI3916_HW2
 # https://csc3916ravisherhw2.herokuapp.com/
 
-# signup
+# Signup
 1. POST :no username or password sent you should return an error(Fail)
 2. If success should return {success:true, msg:'Successful created new user.(Pass)
 3. All other methods should return error (e.g. GET, PUT, DELETE, PATCH) -it should respond with a simple statement saying it doesn’t support the HTTP method.
